@@ -1,17 +1,17 @@
 /*Name this external file gallery.js*/
 
-function upDate(previewPic){
+function upDate(previewPic, H, P){
     let div1 = document.getElementById('image');
     div1.style.backgroundImage = `url(${previewPic.src})`; 
     document.getElementById("blabla").innerHTML = previewPic.alt ;
     div1.style.color = "rgb(201, 135, 12)";
-    div1.style.height = previewPic.name;
-    div1.style.paddingTop = previewPic.id;
+    div1.style.height = H;
+    div1.style.paddingTop = P;
 	}
 
 function unDo() {
     let div1 = document.getElementById('image');
-    div1.style.backgroundImage = "url('https://wallpapers.com/images/hd/naruto-shippuden-s-nagato-xyof9cdxfuqsk918.jpg')";
+    div1.style.backgroundImage = "url('/imgs/naruto-shippuden-s-nagato-xyof9cdxfuqsk918.jpg')";
     document.getElementById("blabla").innerHTML = '	Hover over an image below to display here.';
 	div1.style.height = "";
     div1.style.paddingTop = "";
@@ -24,5 +24,4 @@ function tabbing(){
         console.log ("Image number : " + i);
         tabs[i].tabIndex = "0";
     }
-
 }
