@@ -20,7 +20,7 @@ body{
     font-size: 150%;
     color: rgb(201, 66, 12);
     text-shadow: black 2px 2px;
-    background-image: url('/imgs/naruto-shippuden-s-nagato-xyof9cdxfuqsk918.jpg');
+    background-image: url('https://wallpapers.com/images/hd/naruto-shippuden-s-nagato-xyof9cdxfuqsk918.jpg');
 }
 
 p{
@@ -41,4 +41,5 @@ img{
 img:hover, img:focus{
     opacity: 1;
   
+
 }
