@@ -11,7 +11,7 @@ function upDate(previewPic){
 
 function unDo() {
     let div1 = document.getElementById('image');
-    div1.style.backgroundImage = "url('/imgs/naruto-shippuden-s-nagato-xyof9cdxfuqsk918.jpg')";
+    div1.style.backgroundImage = "url('https://wallpapers.com/images/hd/naruto-shippuden-s-nagato-xyof9cdxfuqsk918.jpg')";
     document.getElementById("blabla").innerHTML = '	Hover over an image below to display here.';
 	div1.style.height = "";
     div1.style.paddingTop = "";
@@ -24,4 +24,5 @@ function tabbing(){
         console.log ("Image number : " + i);
         tabs[i].tabIndex = "0";
     }
+
 }
